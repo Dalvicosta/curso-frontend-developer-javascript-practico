@@ -125,12 +125,12 @@
     }
 
     .mobile-menu {
-      padding: 24px;
       position: absolute;
-      top: 60px;
+      top: 61px;
       left: 0px;
       background-color:var(--white); 
-      width: 100%;
+      width: calc(100% - 24px);
+      padding-left: 24px;
     }
     .mobile-menu a {
       text-decoration: none;
@@ -159,14 +159,14 @@
     }
 
     aside {
+      background-color: var(--white);
       width: 360px;
       box-sizing: border-box;
       position: absolute;
       right: 0;
-      background-color: var(--white);
     }
     #shoppingCartContainer {
-      padding: 10px 24px 0px
+      padding: 0 24px;
     }
     .title-container {
       display: flex;
