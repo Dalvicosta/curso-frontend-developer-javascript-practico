@@ -165,6 +165,10 @@
       position: absolute;
       right: 0;
     }
+
+    #productDetail {
+      top: 75px;
+    }
     #shoppingCartContainer {
       padding: 0 24px;
     }
